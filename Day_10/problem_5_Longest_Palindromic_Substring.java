@@ -1,5 +1,5 @@
 // 17-11-23
-package Day_10;
+package DAy_10;
 
 public class problem_5_Longest_Palindromic_Substring {
 
