@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package Day_11;
 
 public class problem_125_Valid_Palindrome {
@@ -27,3 +28,34 @@ public class problem_125_Valid_Palindrome {
         
     }
 }
+=======
+package Day_11;
+
+public class problem_125_Valid_Palindrome {
+ 
+        public boolean isPalindrome(String s) {
+            if (s.isEmpty()) {
+                return true;
+            }
+            int start = 0;
+            int last = s.length() - 1;
+            while(start <= last) {
+                char currFirst = s.charAt(start);
+                char currLast = s.charAt(last);
+                if (!Character.isLetterOrDigit(currFirst )) {
+                    start++;
+                } else if(!Character.isLetterOrDigit(currLast)) {
+                    last--;
+                } else {
+                    if (Character.toLowerCase(currFirst) != Character.toLowerCase(currLast)) {
+                        return false;
+                    }
+                    start++;
+                    last--;
+                }
+            }
+            return true;
+        
+    }
+}
+>>>>>>> 9f744b4516a0ab982a04a2b2d8ed0a74114bcaec
