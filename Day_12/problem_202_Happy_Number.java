@@ -1,9 +1,7 @@
-// 20-11-23
-// 202
 package Day_12;
 
-public class program_202_Happy_Number {
-    
+public class problem_202_Happy_Number {
+
         public boolean isHappy(int n) {
             int slowsum=n;
             int fastsum=n;
