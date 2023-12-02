@@ -13,6 +13,8 @@ public class problem_1876_Substrings_of_Size_Three_with_Distinct_Characters {
             }
     
             return count;
+
+            
             
         }
     
