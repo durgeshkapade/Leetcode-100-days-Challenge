@@ -1,3 +1,6 @@
+// .  13-4-24      
+//42. Trapping Rain Water
+// use of two array 
 // We make two array leftmax and rightmax , and we store in that array is ,
 //  what is max 	at left side of that idx , and what is max at the right side of that idx.
 // At last travel array , find the min compare with right and left  ,,, 
